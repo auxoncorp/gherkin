@@ -15,7 +15,7 @@ name = "cucumber"
 harness = false
 
 [dependencies]
-textwrap = "0.12.1"
+textwrap = "0.15"
 peg = "0.6.3"
 thiserror = "1.0.20"
 typed-builder = { version = "0.7.0", optional = true }
