@@ -32,7 +32,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 quote = "1"
 syn = "1"
-heck = "0.3"
+heck = "0.4"
 
 [features]
 default = ["parser"]

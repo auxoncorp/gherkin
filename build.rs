@@ -21,7 +21,7 @@ struct Data {
     when: Vec<String>,
 }
 
-use heck::ShoutySnakeCase;
+use heck::ToShoutySnakeCase;
 
 fn main() {
     let out_dir = std::env::var_os("OUT_DIR").unwrap();
